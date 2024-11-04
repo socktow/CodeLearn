@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heart Buttons</title>
     <style>
-        /* Main background and styling */
         body {
-            background-color: #ffb6c1; /* Light pink background */
+            background-color: #ffb6c1;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -18,15 +17,14 @@
         }
         
         h1 {
-            color: #ff69b4; /* Hot pink for title */
+            color: #ff69b4;
             font-size: 2.5em;
             margin-bottom: 20px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         }
 
-        /* Button styling */
         .heart-button {
-            background-color: #ff69b4; /* Hot pink button color */
+            background-color: #ff69b4;
             color: white;
             border: none;
             border-radius: 10px;
@@ -39,19 +37,28 @@
         }
 
         .heart-button:hover {
-            background-color: #ff1493; /* Darker pink on hover */
+            background-color: #ff1493;
             transform: scale(1.1);
         }
 
-        /* Extra styling for a cute look */
         .heart-button:active {
             transform: scale(0.95);
         }
     </style>
 </head>
 <body>
-    <h1>Mei8CucXjnk</h1>
-    <button class="heart-button" onclick="location.href='/Heart1'">Trái Tym Rựa Lửa</button>
-    <button class="heart-button" onclick="location.href='/Heart2'">Trái Tym Dịu Dàng</button>
+    <h1>Welcome to Heart Page</h1>
+    <button class="heart-button" onclick="navigateTo('Heart1')">Trái tym máo lửa</button>
+    <button class="heart-button" onclick="navigateTo('Heart2')">Trái tym dịu dàng</button>
+
+    <script>
+        function navigateTo(page) {
+            if (page === 'Heart1') {
+                alert("Navigating to Heart 1!");
+            } else if (page === 'Heart2') {
+                alert("Navigating to Heart 2!");
+            }
+        }
+    </script>
 </body>
 </html>

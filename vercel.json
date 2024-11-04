@@ -1,0 +1,7 @@
+{
+    "rewrites": [
+      { "source": "/Heart1", "destination": "/" },
+      { "source": "/Heart2", "destination": "/" }
+    ]
+  }
+  
