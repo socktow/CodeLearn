@@ -1,7 +1,6 @@
 {
     "rewrites": [
-      { "source": "/Heart1", "destination": "/" },
-      { "source": "/Heart2", "destination": "/" }
+        { "source": "/Heart1", "destination": "/Heart1/index.html" },
+        { "source": "/Heart2", "destination": "/Heart2/index.html" }
     ]
-  }
-  
+}
